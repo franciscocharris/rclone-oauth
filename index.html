@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Francisco Charris</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         max-width: 44rem; margin: 4rem auto; padding: 0 1.25rem;
+         line-height: 1.65; color: #1a1a1a; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { color: #555; margin-top: 0; }
+  section { margin-top: 2.5rem; }
+  a { color: #0b57d0; }
+  code { background: #f3f3f3; padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e0e0e0;
+           font-size: .875rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Francisco Charris</h1>
+<p class="sub">Software developer. This is a personal site.</p>
+
+<section>
+  <h2>About this site</h2>
+  <p>
+    This site exists to host the required <em>Application home page</em> and
+    <em>Privacy Policy</em> for a private Google Cloud OAuth client that I
+    registered for my own use. Google requires both to be publicly reachable
+    when an OAuth consent screen is configured.
+  </p>
+  <p>
+    The application is <strong>rclone</strong> — an open-source command-line
+    program for syncing files with Google Drive. I use it to run encrypted,
+    restic-based backups of my own development environment to my own personal
+    Google Drive account.
+  </p>
+</section>
+
+<section>
+  <h2>What this app is not</h2>
+  <ul>
+    <li>It is not a service offered to other people.</li>
+    <li>It is not published to the Play Store or any app directory.</li>
+    <li>It has fewer than 100 users — namely, one.</li>
+    <li>It does not send any data anywhere. The process runs locally on my
+        own machine.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Data access</h2>
+  <p>
+    The OAuth grant is read/write on Google Drive, used solely to create and
+    maintain the folders that hold my personal backups. No data leaves my Drive
+    account, and nothing is shared with third parties.
+  </p>
+  <p>Full details are in the <a href="privacy.html">privacy policy</a>.</p>
+</section>
+
+<footer>
+  <p>
+    Revocable at any time from your
+    <a href="https://myaccount.google.com/permissions">Google account
+    permissions</a> page.
+  </p>
+</footer>
+
+</body>
+</html>

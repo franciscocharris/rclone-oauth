@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — rclone OAuth client</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         max-width: 44rem; margin: 4rem auto; padding: 0 1.25rem;
+         line-height: 1.65; color: #1a1a1a; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { color: #555; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 2.25rem; }
+  a { color: #0b57d0; }
+  code { background: #f3f3f3; padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e0e0e0;
+           font-size: .875rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="sub">Google Drive OAuth client — personal use only</p>
+
+<p>
+  <strong>Short version:</strong> this app does not collect, transmit, sell or
+  share any data. It only reads and writes files inside your own Google Drive.
+</p>
+
+<h2>1. Who operates this app</h2>
+<p>
+  This is a private Google Cloud OAuth client operated by a single individual,
+  Francisco Charris, for personal use on their own computer. It is not offered
+  as a service and is not used by anyone else.
+</p>
+
+<h2>2. What the app is</h2>
+<p>
+  The app is <strong>rclone</strong>, an open-source command-line program
+  (<a href="https://rclone.org/">rclone.org</a>). It runs locally on the
+  operator's machine. It is used to perform encrypted backups, using
+  <code>restic</code>, of the operator's own development files to the
+  operator's own personal Google Drive account.
+</p>
+
+<h2>3. Data accessed</h2>
+<p>
+  The OAuth token grants read and write access to Google Drive. In practice it
+  is used exclusively to:
+</p>
+<ul>
+  <li>create the folders that hold the backup repository, and</li>
+  <li>read from and write encrypted backup chunks to those folders.</li>
+</ul>
+<p>
+  All backup data is encrypted client-side before upload. The encryption key
+  never leaves the operator's machine and is not held by Google or by this app.
+</p>
+
+<h2>4. Data NOT collected</h2>
+<p>The app does not:</p>
+<ul>
+  <li>collect personal information of any kind,</li>
+  <li>run any server, endpoint, or analytics service,</li>
+  <li>transmit any data to the operator or to any third party,</li>
+  <li>access files outside the folders it created,</li>
+  <li>share any file with any other person or account.</li>
+</ul>
+<p>
+  There are no cookies, no tracking, no telemetry and no advertising.
+</p>
+
+<h2>5. Third parties</h2>
+<p>
+  The only third party involved is Google, which operates Google Drive. Google
+  processes this data under its own
+  <a href="https://policies.google.com/privacy">privacy policy</a>. No other
+  third party receives any data.
+</p>
+
+<h2>6. Data location and retention</h2>
+<p>
+  All data remains in the Google Drive account of the person who authorised
+  the app. The operator is the sole owner of that account and the sole party
+  with access to that data. Deleting the backup files, or revoking the token,
+  removes the app's access.
+</p>
+
+<h2>7. Revoking access</h2>
+<p>
+  Access can be revoked at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  Revocation takes effect immediately and permanently removes this app's
+  ability to read or write any Drive data. The client itself can be deleted
+  from the Google Cloud Console.
+</p>
+
+<h2>8. Children</h2>
+<p>
+  This app is not directed at children and collects no data from anyone.
+</p>
+
+<h2>9. Changes</h2>
+<p>
+  This policy may be updated if the app's behaviour changes. The revision
+  history is tracked in the public repository backing this site.
+</p>
+
+<h2>10. Contact</h2>
+<p>
+  Questions about this policy can be raised through the public repository that
+  hosts this page.
+</p>
+
+<footer>
+  <p>
+    This policy describes a personal, single-user OAuth client. It is not a
+    template for a commercial service and makes no representation beyond the
+    facts stated above.
+  </p>
+</footer>
+
+</body>
+</html>
